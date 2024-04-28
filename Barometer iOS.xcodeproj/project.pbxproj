@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8123570F2BDEC5B50038A4D3 /* Barometer_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123570E2BDEC5B50038A4D3 /* Barometer_iOSApp.swift */; };
+		812357112BDEC5B50038A4D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812357102BDEC5B50038A4D3 /* ContentView.swift */; };
+		812357132BDEC5B60038A4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812357122BDEC5B60038A4D3 /* Assets.xcassets */; };
+		812357162BDEC5B60038A4D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812357152BDEC5B60038A4D3 /* Preview Assets.xcassets */; };
+		812357202BDEC5B60038A4D3 /* Barometer_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123571F2BDEC5B60038A4D3 /* Barometer_iOSTests.swift */; };
+		8123572A2BDEC5B60038A4D3 /* Barometer_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812357292BDEC5B60038A4D3 /* Barometer_iOSUITests.swift */; };
+		8123572C2BDEC5B60038A4D3 /* Barometer_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123572B2BDEC5B60038A4D3 /* Barometer_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8123571C2BDEC5B60038A4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 812357032BDEC5B50038A4D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8123570A2BDEC5B50038A4D3;
+			remoteInfo = "Barometer iOS";
+		};
+		812357262BDEC5B60038A4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 812357032BDEC5B50038A4D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8123570A2BDEC5B50038A4D3;
+			remoteInfo = "Barometer iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8123570B2BDEC5B50038A4D3 /* Barometer iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barometer iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8123570E2BDEC5B50038A4D3 /* Barometer_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barometer_iOSApp.swift; sourceTree = "<group>"; };
+		812357102BDEC5B50038A4D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		812357122BDEC5B60038A4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		812357152BDEC5B60038A4D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8123571B2BDEC5B60038A4D3 /* Barometer iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Barometer iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8123571F2BDEC5B60038A4D3 /* Barometer_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barometer_iOSTests.swift; sourceTree = "<group>"; };
+		812357252BDEC5B60038A4D3 /* Barometer iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Barometer iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		812357292BDEC5B60038A4D3 /* Barometer_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barometer_iOSUITests.swift; sourceTree = "<group>"; };
+		8123572B2BDEC5B60038A4D3 /* Barometer_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barometer_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		812357082BDEC5B50038A4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812357182BDEC5B60038A4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812357222BDEC5B60038A4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		812357022BDEC5B50038A4D3 = {
+			isa = PBXGroup;
+			children = (
+				8123570D2BDEC5B50038A4D3 /* Barometer iOS */,
+				8123571E2BDEC5B60038A4D3 /* Barometer iOSTests */,
+				812357282BDEC5B60038A4D3 /* Barometer iOSUITests */,
+				8123570C2BDEC5B50038A4D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8123570C2BDEC5B50038A4D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8123570B2BDEC5B50038A4D3 /* Barometer iOS.app */,
+				8123571B2BDEC5B60038A4D3 /* Barometer iOSTests.xctest */,
+				812357252BDEC5B60038A4D3 /* Barometer iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8123570D2BDEC5B50038A4D3 /* Barometer iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8123570E2BDEC5B50038A4D3 /* Barometer_iOSApp.swift */,
+				812357102BDEC5B50038A4D3 /* ContentView.swift */,
+				812357122BDEC5B60038A4D3 /* Assets.xcassets */,
+				812357142BDEC5B60038A4D3 /* Preview Content */,
+			);
+			path = "Barometer iOS";
+			sourceTree = "<group>";
+		};
+		812357142BDEC5B60038A4D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				812357152BDEC5B60038A4D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8123571E2BDEC5B60038A4D3 /* Barometer iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8123571F2BDEC5B60038A4D3 /* Barometer_iOSTests.swift */,
+			);
+			path = "Barometer iOSTests";
+			sourceTree = "<group>";
+		};
+		812357282BDEC5B60038A4D3 /* Barometer iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				812357292BDEC5B60038A4D3 /* Barometer_iOSUITests.swift */,
+				8123572B2BDEC5B60038A4D3 /* Barometer_iOSUITestsLaunchTests.swift */,
+			);
+			path = "Barometer iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8123570A2BDEC5B50038A4D3 /* Barometer iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8123572F2BDEC5B60038A4D3 /* Build configuration list for PBXNativeTarget "Barometer iOS" */;
+			buildPhases = (
+				812357072BDEC5B50038A4D3 /* Sources */,
+				812357082BDEC5B50038A4D3 /* Frameworks */,
+				812357092BDEC5B50038A4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barometer iOS";
+			productName = "Barometer iOS";
+			productReference = 8123570B2BDEC5B50038A4D3 /* Barometer iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8123571A2BDEC5B60038A4D3 /* Barometer iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812357322BDEC5B60038A4D3 /* Build configuration list for PBXNativeTarget "Barometer iOSTests" */;
+			buildPhases = (
+				812357172BDEC5B60038A4D3 /* Sources */,
+				812357182BDEC5B60038A4D3 /* Frameworks */,
+				812357192BDEC5B60038A4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8123571D2BDEC5B60038A4D3 /* PBXTargetDependency */,
+			);
+			name = "Barometer iOSTests";
+			productName = "Barometer iOSTests";
+			productReference = 8123571B2BDEC5B60038A4D3 /* Barometer iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		812357242BDEC5B60038A4D3 /* Barometer iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812357352BDEC5B60038A4D3 /* Build configuration list for PBXNativeTarget "Barometer iOSUITests" */;
+			buildPhases = (
+				812357212BDEC5B60038A4D3 /* Sources */,
+				812357222BDEC5B60038A4D3 /* Frameworks */,
+				812357232BDEC5B60038A4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812357272BDEC5B60038A4D3 /* PBXTargetDependency */,
+			);
+			name = "Barometer iOSUITests";
+			productName = "Barometer iOSUITests";
+			productReference = 812357252BDEC5B60038A4D3 /* Barometer iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		812357032BDEC5B50038A4D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8123570A2BDEC5B50038A4D3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8123571A2BDEC5B60038A4D3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8123570A2BDEC5B50038A4D3;
+					};
+					812357242BDEC5B60038A4D3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8123570A2BDEC5B50038A4D3;
+					};
+				};
+			};
+			buildConfigurationList = 812357062BDEC5B50038A4D3 /* Build configuration list for PBXProject "Barometer iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 812357022BDEC5B50038A4D3;
+			productRefGroup = 8123570C2BDEC5B50038A4D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8123570A2BDEC5B50038A4D3 /* Barometer iOS */,
+				8123571A2BDEC5B60038A4D3 /* Barometer iOSTests */,
+				812357242BDEC5B60038A4D3 /* Barometer iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		812357092BDEC5B50038A4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812357162BDEC5B60038A4D3 /* Preview Assets.xcassets in Resources */,
+				812357132BDEC5B60038A4D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812357192BDEC5B60038A4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812357232BDEC5B60038A4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		812357072BDEC5B50038A4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812357112BDEC5B50038A4D3 /* ContentView.swift in Sources */,
+				8123570F2BDEC5B50038A4D3 /* Barometer_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812357172BDEC5B60038A4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812357202BDEC5B60038A4D3 /* Barometer_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812357212BDEC5B60038A4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8123572C2BDEC5B60038A4D3 /* Barometer_iOSUITestsLaunchTests.swift in Sources */,
+				8123572A2BDEC5B60038A4D3 /* Barometer_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8123571D2BDEC5B60038A4D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8123570A2BDEC5B50038A4D3 /* Barometer iOS */;
+			targetProxy = 8123571C2BDEC5B60038A4D3 /* PBXContainerItemProxy */;
+		};
+		812357272BDEC5B60038A4D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8123570A2BDEC5B50038A4D3 /* Barometer iOS */;
+			targetProxy = 812357262BDEC5B60038A4D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8123572D2BDEC5B60038A4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8123572E2BDEC5B60038A4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		812357302BDEC5B60038A4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Barometer iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = R7859T37M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vieyra-Software.Barometer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		812357312BDEC5B60038A4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Barometer iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = R7859T37M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vieyra-Software.Barometer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		812357332BDEC5B60038A4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7859T37M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vieyra-Software.Barometer-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barometer iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Barometer iOS";
+			};
+			name = Debug;
+		};
+		812357342BDEC5B60038A4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7859T37M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vieyra-Software.Barometer-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barometer iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Barometer iOS";
+			};
+			name = Release;
+		};
+		812357362BDEC5B60038A4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7859T37M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vieyra-Software.Barometer-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Barometer iOS";
+			};
+			name = Debug;
+		};
+		812357372BDEC5B60038A4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7859T37M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vieyra-Software.Barometer-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Barometer iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		812357062BDEC5B50038A4D3 /* Build configuration list for PBXProject "Barometer iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8123572D2BDEC5B60038A4D3 /* Debug */,
+				8123572E2BDEC5B60038A4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8123572F2BDEC5B60038A4D3 /* Build configuration list for PBXNativeTarget "Barometer iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812357302BDEC5B60038A4D3 /* Debug */,
+				812357312BDEC5B60038A4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812357322BDEC5B60038A4D3 /* Build configuration list for PBXNativeTarget "Barometer iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812357332BDEC5B60038A4D3 /* Debug */,
+				812357342BDEC5B60038A4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812357352BDEC5B60038A4D3 /* Build configuration list for PBXNativeTarget "Barometer iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812357362BDEC5B60038A4D3 /* Debug */,
+				812357372BDEC5B60038A4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 812357032BDEC5B50038A4D3 /* Project object */;
+}
