@@ -7,16 +7,18 @@ The app works on iOS 17.4 and newer versions. However, it requires "Motion & Fit
 
 # Key to request the prompt:
 
- let recorder = CMSensorRecorder()
-            DispatchQueue.main.async {
-                self.pressureData = "Trigerring permission prompt…"
-                recorder.recordAccelerometer(forDuration: 0.1)
-            }
+```swift
+let recorder = CMSensorRecorder()
+DispatchQueue.main.async {
+    self.pressureData = "Trigerring permission prompt…"
+    recorder.recordAccelerometer(forDuration: 0.1)
+}
+
+and to add Privacy - Motion Usage Description in the info.plist
 
 
-![Sensor Prompt Screenshot](https://github.com/chrystianv/barometer-iOS/blob/main/Barometer%20iOS/sensor%20prompt.png)
+<img src="https://github.com/chrystianv/barometer-iOS/blob/main/Barometer%20iOS/sensor%20prompt.png" alt="Sensor Prompt Screenshot" width="20%" height="20%">
 
-
-![Needed fitness tracking setting](https://github.com/chrystianv/barometer-iOS/blob/main/Barometer%20iOS/fitness%20tracking.png)
+<img src="https://github.com/chrystianv/barometer-iOS/blob/main/Barometer%20iOS/fitness%20tracking.png" alt="Needed fitness tracking setting" width="20%" height="20%">
 
 
